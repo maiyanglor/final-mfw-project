@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather&display=swap');
+
 body {
     margin: 0;
     padding: 0; 
     color: white; 
     background-size: cover;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+.list-inline-item {
+    font-family: 'Merriweather', serif;
 }
 
 .bg-jumbotron {
