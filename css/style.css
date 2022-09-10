@@ -19,7 +19,7 @@ body {
     font-family: 'Merriweather', serif;
     margin-top:1em; 
 }
-/*jumbotron*/ 
+/*jumbotron*/
 .bg-jumbotron {
     margin-top: -1.5em;
     margin-bottom: 0px;
@@ -28,6 +28,7 @@ body {
     background-repeat:no-repeat;
     background-size:cover; 
     background-position:center;
+    height:100vh; 
 }
 h1 {
   font-family: 'Merriweather', serif;
@@ -36,10 +37,6 @@ h1 {
 p {
   font-family: 'Merriweather', serif;
   color:white;
-}
-.btn {
-   font-family: 'Merriweather', serif;
-   color:white; 
 }
 
 @media only screen 
