@@ -8,8 +8,9 @@ body {
     background-size: cover;
 }
 /*nav bar here*/ 
-.nav {
-  display:block; 
+.navbar {
+  background-image:url(./assets/img/hmong-pattern-background.png); 
+  background-repeat:no-repeat; 
 }
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
@@ -23,8 +24,8 @@ body {
     margin-top: -1.5em;
     margin-bottom: 0px;
     max-width: 100%;  
-    background-image: url(https://images.unsplash.com/photo-1515823064-d6e0c04616a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
-    background-repeat: no-repeat;
+    background-image:url(./assets/img/coffee-laptop.jpg);
+    background-repeat:no-repeat;
     background-size:cover; 
     background-position:center;
 }
