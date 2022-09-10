@@ -6,7 +6,6 @@ body {
     padding: 0; 
     color: rgb(41, 23, 86); 
     background-size: cover;
-    height:6em; 
 }
 /*nav bar here*/ 
 .navbar-brand {
@@ -28,20 +27,34 @@ body {
     background-size:cover; 
     background-position:center;
     height:100vh; 
-    opacity:80%; 
+    opacity:80%;  
 }
 h1 {
   margin-left:-1em;
   font-family: 'Lobster', cursive;
   font-size:xx-large;
-  float:right;
+  float:right; 
 }
 p {
   margin-right:3.5em; 
   font-family: 'Merriweather', serif;
   float:right; 
 }
-
+/*footer*/
+footer {
+  position:relative; 
+  margin:-6.3em;
+  z-index:90; 
+}
+h6 {
+  font-family: 'Merriweather', serif;
+  font-size:xx-small; 
+}
+svg {
+  position:absolute; 
+  margin:-5.5em; 
+  z-index:2;
+}
 @media only screen 
 and (min-width:320px) 
 and (max-width:480px) 
