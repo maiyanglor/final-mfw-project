@@ -18,13 +18,13 @@ body {
     margin-right:0.5em; 
 }
 /*parallax effect*/ 
-.parallax {
-  background-image: url('./assets/img/fresno.jpg'); 
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.parallax-1 {
+  background-image:url(./assets/img/fresno.jpg);  
+  background-attachment:fixed;
+  background-position:center;
+  height:100% 100%;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 /*footer*/
 footer {
@@ -47,6 +47,8 @@ and (max-width:480px)
 and (-webkit-min-device-pixel-ratio:2) {
     body {
       background-color: rgb(36, 39, 101);
+    .parallax {
+      background-attachment: scroll;
     }
   }
 
@@ -56,6 +58,8 @@ and (max-width:1024px)
 and (-webkit-min-device-pixel-ratio:1) {
     body {
       background-color: rgb(10, 0, 43);
+      .parallax {
+        background-attachment: scroll;
     }
   }
 @media only screen 
@@ -64,6 +68,8 @@ and (max-width:1600px)
 and (-webkit-min-device-pixel-ratio:1) {
     body {
       background-color: rgb(44, 8, 51);
+      .parallax {
+      background-attachment: scroll;
     }
   }
   
