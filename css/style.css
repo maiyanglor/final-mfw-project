@@ -22,7 +22,7 @@ body {
     margin-top: -1.5em;
     margin-bottom: 0px;
     max-width: 100%;  
-    background-image:url(./assets/img/blur-neon-light-laptop.jpg);
+    background-image:url('./assets/img/blur-neon-light-laptop.jpg');
     background-repeat:no-repeat;
     background-size:cover; 
     background-position:center;
