@@ -41,11 +41,12 @@ p {
   margin-right:3.5em; 
   font-family: 'Merriweather', serif;
   float:right; 
+  text-align:center;
 }
 /*footer*/
 footer {
   position:relative; 
-  margin-bottom:-4.5em;
+  margin-bottom:-5.5em;
 }
 h6 {
   font-family: 'Merriweather', serif;
