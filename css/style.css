@@ -38,10 +38,8 @@ h1 {
   float:right; 
 }
 p {
-  margin-right:3.5em; 
-  font-family: 'Merriweather', serif;
-  float:right; 
-  text-align:center;
+  margin-top:12em;  
+  font-family:'Merriweather', serif;
 }
 /*footer*/
 footer {
@@ -60,16 +58,23 @@ h6 {
 }
 /*media queries*/
 @media only screen 
-and (min-width:320px) 
-and (max-width:480px) 
+and (min-width:280px) 
+and (max-width:499px) 
 and (-webkit-min-device-pixel-ratio:2) {
     body {
       background-color: rgb(36, 39, 101);
     }
   }
-
+  @media only screen
+  and (min-width:500px) 
+  and (max-width:768px) 
+  and (-webkit-min-device-pixel-ratio:1) {
+      body {
+        background-color: rgb(49, 20, 78);
+      }
+    }
 @media only screen
-and (min-width:768px) 
+and (min-width:769px) 
 and (max-width:1024px) 
 and (-webkit-min-device-pixel-ratio:1) {
     body {
@@ -77,7 +82,7 @@ and (-webkit-min-device-pixel-ratio:1) {
     }
   }
 @media only screen 
-and (min-width:1200px)
+and (min-width:1025px)
 and (max-width:1600px) 
 and (-webkit-min-device-pixel-ratio:1) {
     body {
