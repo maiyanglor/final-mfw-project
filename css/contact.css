@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
     margin: 0;
@@ -18,7 +19,7 @@ body {
     margin-right:0.5em; 
 }
 /*customized contact form*/
-.form-label .invalid-feedback .form-control {
+#contact-form {
   font-family: 'Merriweather', serif;
 }
 
@@ -26,6 +27,7 @@ body {
 footer {
   position:relative; 
   margin-bottom:-4.5em;
+  color:rgb(4, 217, 255); 
 }
 h6 {
   font-family: 'Merriweather', serif;

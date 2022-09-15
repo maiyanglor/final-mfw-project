@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
     margin: 0;
@@ -16,6 +17,10 @@ body {
     font-family: 'Merriweather', serif;
     margin-top:1em; 
     margin-right:0.5em; 
+}
+/*website title on top of portfolio thumbnails*/ 
+h1 {
+  font-family: 'Lobster', cursive;
 }
 /*footer*/
 footer {
